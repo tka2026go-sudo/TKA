@@ -181,17 +181,17 @@ export const LoginPage: React.FC = () => {
             </button>
           </form>
 
-          {/* Instructional helper */}
-          <div className="pt-3 border-t border-slate-200/60">
-            <div className="flex items-start gap-2 text-[11px] text-slate-500 leading-relaxed">
-              <Info className="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
-              <div>
-                <span>
-                  Sistem otomatis mengarahkan peran: Masukkan <strong>10 digit NISN</strong> untuk peserta ujian, atau ketik <strong>proktor</strong> untuk pengawas ujian.
-                </span>
+            {/* Instructional helper */}
+            <div className="pt-3 border-t border-slate-200/60">
+              <div className="flex items-start gap-2 text-[11px] text-slate-500 leading-relaxed">
+                <Info className="w-3.5 h-3.5 text-blue-600 shrink-0 mt-0.5" />
+                <div>
+                  <span>
+                    Sistem otomatis mengarahkan peran: Masukkan <strong>10 digit NISN</strong> untuk peserta ujian, atau ketik <strong>admin</strong> / <strong>proktor</strong> (kata sandi: <code className="bg-slate-100 text-slate-800 px-1 py-0.5 rounded font-mono font-semibold">admin123</code>) untuk akses proktor.
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
         </div>
 
         <p className="mt-4 text-center text-xs text-slate-400 font-medium">

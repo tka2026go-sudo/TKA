@@ -52,6 +52,7 @@ export interface Student {
   nomorInduk: string;
   nama: string;
   kelas: string;
+  password?: string;
   passwordHash?: string;
   mustChangePassword?: boolean;
   status: 'AKTIF' | 'NONAKTIF';
